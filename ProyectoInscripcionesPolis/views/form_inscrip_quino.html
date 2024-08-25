@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Polideportivo Quino</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/estilos.css" />
+</head>
+
+<body id="body2">
+
+    <div id="form-insc">
+        <form action="">
+            <h2>Inscripción Polideportivo Quino</h2>
+            <div><input class="formulario" type="text" id="nombre" placeholder="Ingrese su Nombre y Apellido." required></div>
+            <div><input class="formulario" type="number" id="dni" placeholder="Ingrese su Número de Documento." required></div>
+            <div><input class="formulario " type="text " id="domicilio " placeholder="Ingrese su Domicilio. " required></div>
+            <div><label for="distrito"></label>
+                <select id="distrito" class="formulario" name="distritos">
+                    <option value="" style="display: none;">Localidad:</option>
+                    <option value="belgrano ">Belgrano</option>
+                    <option value="buena_nueva ">Buena Nueva</option>
+                    <option value="capilla ">Capilla del Rosario</option>
+                    <option value="colonia_molina ">Colonia Molina</option>  
+                    <option value="colonia_segovia ">Colonia Segovia</option>
+                    <option value="dorrego ">Dorrego</option> 
+                    <option value="bermejo ">El Bermejo</option>
+                    <option value="sauce ">El Sauce</option> 
+                    <option value="nazareno ">Jesús Nazareno</option>
+                    <option value="km_8 ">Kilómetro 8</option>  
+                    <option value="km_11 ">Kilómetro 11</option>
+                    <option value="cañas ">Las Cañas</option>
+                    <option value="corralitos ">Los Corralitos</option>  
+                    <option value="primavera ">La Primavera</option>
+                    <option value="nueva_ciudad ">Nueva Ciudad</option> 
+                    <option value="pedro_molina ">Pedro Molina</option>
+                    <option value="puente ">Puente de Hierro</option>  
+                    <option value="rodeo ">Rodeo de la Cruz</option>
+                    <option value="san_francisco ">San Francisco del Monte</option>  
+                    <option value="san_jose ">San José</option>
+                    <option value="villa_nueva ">Villa Nueva</option>
+                </select>
+            </div>
+            <div><input class="formulario " type="number " id="edad " placeholder="Ingrese su Edad. " required></div>
+            <div><input class="formulario " type="number " id="peso " placeholder="Ingrese su Peso expresado en Kilogramos. " required></div>
+            <div><input class="formulario " type="number " id="altura " placeholder="Ingrese su Altura expresada en Centímetros. " required></div>
+
+            <div>
+                <textarea class="formulario " id="descripcion " placeholder="Especifique si tiene alguna condición médica. "></textarea>
+            </div>
+
+            <div>
+                <textarea class="formulario " id="descripcion " placeholder="Especifique si tiene alguna alergia. "></textarea>
+            </div>
+            <div><label for="actividad"></label>
+                <select id="actividad" class="formulario" name="actividades">
+                    <option value="" style="display: none;">Seleccione la actividad de su preferencia.</option>
+                    <option value="basquet">Básquet</option>
+                    <option value="futbol_inf">Fútbol Infantil</option>
+                    <option value="futbol_fem">Fútbol Femenino</option>
+                    <option value="karate">Karate</option>  
+                    <option value="hockey">Hockey</option>
+                    <option value="futbol_mix">Fútbol Mixto</option> 
+                    
+                </select>
+                <div class="formulario ">
+                    <p class="tipo-letra ">Subir Imagen de su DNI de Frente</p>
+                    <p>Se admiten documentos en formato PDF, jpeg y png </p>
+                    <label for="certificado "></label>
+                    <input type="file " id="certificado " name="certificado " accept="image/jpeg, image/png, image/pdf ">
+                </div>
+
+                <div class="formulario ">
+                    <p class="tipo-letra ">Subir Imagen de su DNI Dorso</p>
+                    <p>Se admiten documentos en formato PDF, jpeg y png </p>
+                    <label for="certificado "></label>
+                    <input type="file " id="certificado " name="certificado " accept="image/jpeg, image/png, image/pdf ">
+                </div>
+
+                <div class="formulario ">
+                    <p class="tipo-letra ">Subir certificado médico de aptitud física para realizar actividades</p>
+                    <p>Se admiten documentos en formato PDF, jpeg y png </p>
+                    <label for="certificado "></label>
+                    <input type="file " id="certificado " name="certificado " accept="image/jpeg, image/png, image/pdf ">
+                </div>
+
+                <!--Antes de enviar pedir verificacion de datos-->
+
+                <button type="submit ">Enviar</button>
+
+
+        </form>
+        <script src="../assets/js/main1.js"></script>
+        </div>
+</body>
+
+</html>
+
+</html>

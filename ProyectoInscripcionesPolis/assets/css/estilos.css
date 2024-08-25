@@ -1,0 +1,168 @@
+    body {
+        margin: 0px;
+        background-image: url("../imagenes/imagen fondo.jpg");
+        background-repeat: repeat;
+        background-size: 500px;
+        text-align: center;
+    }
+    
+    #encabezado {
+        background-color: #5F4896;
+        height: 115px;
+        display: flex;
+        display: flex;
+    }
+    
+    #logo {
+        width: 400px;
+        height: auto;
+    }
+    
+    h1 {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 63px;
+        color: #5c4c94;
+        background-color: white;
+        opacity: 0.85;
+    }
+    
+    .contenedor-botones {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button {
+        margin: 20px 160px 60px 160px;
+        justify-content: center;
+        height: 75px;
+        width: 300px;
+        border-radius: 42px;
+        border: 3px solid #db2983;
+        background-color: #e59ebb;
+        opacity: 0.75;
+        color: #5B2C6F;
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 17px;
+    }
+    
+    #form-insc {
+        background-color: white;
+        opacity: 0.85;
+        margin: 5%;
+        padding: 5%;
+        box-shadow: 10px 10px 10px #dcdcdc;
+    }
+    
+    #body2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h2 {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 50px;
+        color: #5c4c94;
+        background-color: white;
+    }
+    
+    .formulario {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid red;
+        font-family: 'calibri';
+        font-size: 13px;
+        background: window;
+        padding: 8px;
+        margin: 5px;
+    }
+    
+    .p {
+        font-family: 'calibri';
+        font-size: 13px;
+        text-align: left;
+    }
+    
+    .tipo-letra {
+        font-weight: bold;
+    }
+    
+    .container-carrusel {
+        position: relative;
+        width: 1700px;
+        height: 500px;
+        background-color: #e0e0e0;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+        border-radius: 15px;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 3px;
+    }
+    
+    .carruseles {
+        width: 600%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .slider-section {
+        width: calc(100%/6);
+        height: 100%;
+    }
+    
+    .slider-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    
+    .btn-left,
+    .btn-right {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        font-size: 2.5rem;
+        background-color: transparent;
+        border-radius: 50%;
+        padding: 5px;
+        font-weight: 600;
+        cursor: pointer;
+        color: #ffffff81;
+        transform: translate(0, -50%);
+        transition: .5s ease;
+        user-select: none;
+    }
+    
+    .btn-left:hover,
+    .btn-right:hover {
+        background-color: #333333d4;
+        color: white;
+    }
+    
+    .btn-left {
+        left: 10px;
+    }
+    
+    .btn-right {
+        right: 10px;
+    }
+    
+    .info img {
+        width: 630px;
+        height: 600px;
+        display: flex;
+        margin: 1px;
+        opacity: 0.85;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
