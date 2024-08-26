@@ -10,6 +10,14 @@
 </head>
 
 <body id="body2">
+    <header id="encabezado1">
+        <a href="https://www.google.com/maps/@-32.9094274,-68.8106037,17z?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+            <img src=" ../assets/imagenes/iconos/icons8-mapamundi-100.png">
+        </a>
+        <div>
+            <img id="logo" src="../assets/imagenes/guaymallen letras.png" alt="Logo Guaymallén">
+        </div>
+    </header>
 
     <div id="form-insc">
         <form action="">
@@ -65,30 +73,30 @@
                     <option value="futbol_mix">Fútbol Mixto</option> 
                     
                 </select>
-                <div class="formulario ">
-                    <p class="tipo-letra ">Subir Imagen de su DNI de Frente</p>
+                <div class="formulario">
+                    <p class="tipo-letra">Subir Imagen de su DNI de Frente</p>
                     <p>Se admiten documentos en formato PDF, jpeg y png </p>
-                    <label for="certificado "></label>
-                    <input type="file " id="certificado " name="certificado " accept="image/jpeg, image/png, image/pdf ">
+                    <label for="certificado" class="boton-archivo">Selecionar Archivo</label>
+                    <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
+                </div>
+
+                <div class="formulario">
+                    <p class="tipo-letra">Subir Imagen de su DNI Dorso</p>
+                    <p>Se admiten documentos en formato PDF, jpeg y png </p>
+                    <label for="certificado" class="boton-archivo">Selecionar Archivo</label>
+                    <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
                 </div>
 
                 <div class="formulario ">
-                    <p class="tipo-letra ">Subir Imagen de su DNI Dorso</p>
+                    <p class="tipo-letra">Subir certificado médico de aptitud física para realizar actividades</p>
                     <p>Se admiten documentos en formato PDF, jpeg y png </p>
-                    <label for="certificado "></label>
-                    <input type="file " id="certificado " name="certificado " accept="image/jpeg, image/png, image/pdf ">
-                </div>
-
-                <div class="formulario ">
-                    <p class="tipo-letra ">Subir certificado médico de aptitud física para realizar actividades</p>
-                    <p>Se admiten documentos en formato PDF, jpeg y png </p>
-                    <label for="certificado "></label>
-                    <input type="file " id="certificado " name="certificado " accept="image/jpeg, image/png, image/pdf ">
+                    <label for="certificado" class="boton-archivo">Selecionar Archivo</label>
+                    <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
                 </div>
 
                 <!--Antes de enviar pedir verificacion de datos-->
 
-                <button type="submit ">Enviar</button>
+                <button type="submit">Enviar Formulario</button>
 
 
         </form>
