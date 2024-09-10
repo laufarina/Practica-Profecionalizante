@@ -6,12 +6,13 @@
     <title>Polideportivo Quino</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/estilos1.css">
+    <link rel="stylesheet" type="text/css " href="../assets/css/estilos.css">
 </head>
 
 <body id="body2">
     <header id="encabezado1">
-        <a href="https://www.google.com/maps/@-32.9094274,-68.8106037,17z?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        <a href="https://maps.app.goo.gl/qAo8t49KGweSxqbo6" target="_blank">
             <img src=" ../assets/imagenes/iconos/icons8-mapamundi-100.png">
         </a>
         <div>
@@ -19,58 +20,59 @@
         </div>
     </header>
 
-    <div id="form-insc">
-        <form action="">
+    <div id="cont_formulario">
+        <form id="form-insc" action="">
             <h2>Inscripción Polideportivo Quino</h2>
             <div><input class="formulario" type="text" id="nombre" placeholder="Ingrese su Nombre y Apellido." required></div>
             <div><input class="formulario" type="number" id="dni" placeholder="Ingrese su Número de Documento." required></div>
+            <div><input class="formulario" type="email" id="imail" placeholder="Ingrese su dirección de correo electrónico." required></div>
             <div><input class="formulario " type="text " id="domicilio " placeholder="Ingrese su Domicilio. " required></div>
             <div><label for="distrito"></label>
                 <select id="distrito" class="formulario" name="distritos">
                     <option value="" style="display: none;">Localidad:</option>
-                    <option value="belgrano ">Belgrano</option>
-                    <option value="buena_nueva ">Buena Nueva</option>
-                    <option value="capilla ">Capilla del Rosario</option>
-                    <option value="colonia_molina ">Colonia Molina</option>  
-                    <option value="colonia_segovia ">Colonia Segovia</option>
-                    <option value="dorrego ">Dorrego</option> 
-                    <option value="bermejo ">El Bermejo</option>
-                    <option value="sauce ">El Sauce</option> 
-                    <option value="nazareno ">Jesús Nazareno</option>
-                    <option value="km_8 ">Kilómetro 8</option>  
-                    <option value="km_11 ">Kilómetro 11</option>
-                    <option value="cañas ">Las Cañas</option>
-                    <option value="corralitos ">Los Corralitos</option>  
-                    <option value="primavera ">La Primavera</option>
-                    <option value="nueva_ciudad ">Nueva Ciudad</option> 
-                    <option value="pedro_molina ">Pedro Molina</option>
-                    <option value="puente ">Puente de Hierro</option>  
-                    <option value="rodeo ">Rodeo de la Cruz</option>
-                    <option value="san_francisco ">San Francisco del Monte</option>  
-                    <option value="san_jose ">San José</option>
-                    <option value="villa_nueva ">Villa Nueva</option>
+                    <option value="Belgrano">Belgrano</option>
+                    <option value="Buena Nueva ">Buena Nueva</option>
+                    <option value="Capilla del Rosario">Capilla del Rosario</option>
+                    <option value="Colonia Molina ">Colonia Molina</option>  
+                    <option value="Colonia Segovia ">Colonia Segovia</option>
+                    <option value="Dorrego ">Dorrego</option> 
+                    <option value="El Bermejo">El Bermejo</option>
+                    <option value="El Sauce">El Sauce</option> 
+                    <option value="Jesús Nazareno ">Jesús Nazareno</option>
+                    <option value="Km 8 ">Kilómetro 8</option>  
+                    <option value="Km 11 ">Kilómetro 11</option>
+                    <option value="LasCañas ">Las Cañas</option>
+                    <option value="Corralitos ">Los Corralitos</option>  
+                    <option value="Primavera ">La Primavera</option>
+                    <option value="Nueva Ciudad ">Nueva Ciudad</option> 
+                    <option value="Pedro Molina ">Pedro Molina</option>
+                    <option value="Puente de Hierro">Puente de Hierro</option>  
+                    <option value="Rodeo de la Cruz">Rodeo de la Cruz</option>
+                    <option value="San Francisco">San Francisco del Monte</option>  
+                    <option value="San José">San José</option>
+                    <option value="Villa Nueva ">Villa Nueva</option>
                 </select>
             </div>
-            <div><input class="formulario " type="number " id="edad " placeholder="Ingrese su Edad. " required></div>
-            <div><input class="formulario " type="number " id="peso " placeholder="Ingrese su Peso expresado en Kilogramos. " required></div>
-            <div><input class="formulario " type="number " id="altura " placeholder="Ingrese su Altura expresada en Centímetros. " required></div>
+            <div><input class="formulario" type="number" id="edad" placeholder="Ingrese su Edad." required></div>
+            <div><input class="formulario" type="number" id="peso" placeholder="Ingrese su Peso expresado en Kilogramos." required></div>
+            <div><input class="formulario" type="number" id="altura" placeholder="Ingrese su Altura expresada en Centímetros." required></div>
 
             <div>
                 <textarea class="formulario " id="descripcion " placeholder="Especifique si tiene alguna condición médica. "></textarea>
             </div>
 
             <div>
-                <textarea class="formulario " id="descripcion " placeholder="Especifique si tiene alguna alergia. "></textarea>
+                <textarea class="formulario" id="descripcion" placeholder="Especifique si tiene alguna alergia."></textarea>
             </div>
             <div><label for="actividad"></label>
                 <select id="actividad" class="formulario" name="actividades">
                     <option value="" style="display: none;">Seleccione la actividad de su preferencia.</option>
-                    <option value="basquet">Básquet</option>
-                    <option value="futbol_inf">Fútbol Infantil</option>
-                    <option value="futbol_fem">Fútbol Femenino</option>
-                    <option value="karate">Karate</option>  
-                    <option value="hockey">Hockey</option>
-                    <option value="futbol_mix">Fútbol Mixto</option> 
+                    <option value="Básquet">Básquet</option>
+                    <option value="Fútbol Infantil">Fútbol Infantil</option>
+                    <option value="Fútbol Femenino">Fútbol Femenino</option>
+                    <option value="Karate">Karate</option>  
+                    <option value="Hockey">Hockey</option>
+                    <option value="Fútbol Mixto">Fútbol Mixto</option> 
                     
                 </select>
                 <div class="formulario">
@@ -87,23 +89,35 @@
                     <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
                 </div>
 
-                <div class="formulario ">
+                <div class="formulario">
                     <p class="tipo-letra">Subir certificado médico de aptitud física para realizar actividades</p>
                     <p>Se admiten documentos en formato PDF, jpeg y png </p>
                     <label for="certificado" class="boton-archivo">Selecionar Archivo</label>
                     <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
                 </div>
 
-                <!--Antes de enviar pedir verificacion de datos-->
-
-                <button type="submit">Enviar Formulario</button>
 
 
+                <button class="button_form " type="button" onclick="mostrarModal()">Enviar Formulario</button>
+                <button class="button_form " type="button" onclick="confirmarEliminacion()">Eliminar</button>
+
+            </div>
         </form>
-        <script src="../assets/js/main1.js"></script>
-        </div>
-</body>
 
-</html>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modal-text"></p>
+            </div>
+        </div>
+        <script src="../assets/js/main1.js"></script>
+
+    </div>
+
+
+
+
+
+</body>
 
 </html>

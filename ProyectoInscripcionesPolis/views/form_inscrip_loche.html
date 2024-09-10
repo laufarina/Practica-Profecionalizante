@@ -11,7 +11,7 @@
 
 <body id="body2">
     <header id="encabezado1">
-        <a href="https://www.google.com/maps/@-32.9097228,-68.7600938,17z?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank ">
+        <a href="https://maps.app.goo.gl/6yDRfdrnKG3GcRnR7" target="_blank ">
             <img src=" ../assets/imagenes/iconos/icons8-mapamundi-100.png">
         </a>
         <div>
@@ -19,15 +19,16 @@
         </div>
     </header>
 
-    <div id="form-insc">
-        <form action="">
+    <div id="cont_formulario">
+        <form id="form-insc" action="">
             <h2>Inscripción Polideportivo Locche</h2>
             <div><input class="formulario" type="text" id="nombre" placeholder="Ingrese su Nombre y Apellido." required></div>
             <div><input class="formulario" type="number" id="dni" placeholder="Ingrese su Número de Documento." required></div>
+            <div><input class="formulario" type="email" id="imail" placeholder="Ingrese su dirección de correo electrónico." required></div>
             <div><input class="formulario " type="text " id="domicilio " placeholder="Ingrese su Domicilio. " required></div>
-            <div><label for="distrito"></label>
-                <select id="distrito" class="formulario" name="distritos">
-                    <option value="" style="display: none;">Localidad:</option>
+            <div><label for="distrito "></label>
+                <select id="distrito " class="formulario " name="distritos ">
+                    <option value=" " style="display: none; ">Localidad:</option>
                     <option value="belgrano ">Belgrano</option>
                     <option value="buena_nueva ">Buena Nueva</option>
                     <option value="capilla ">Capilla del Rosario</option>
@@ -51,26 +52,26 @@
                     <option value="villa_nueva ">Villa Nueva</option>
                 </select>
             </div>
-            <div><input class="formulario" type="number" id="edad" placeholder="Ingrese su Edad." required></div>
-            <div><input class="formulario" type="number" id="peso" placeholder="Ingrese su Peso expresado en Kilogramos." required></div>
-            <div><input class="formulario" type="number" id="altura" placeholder="Ingrese su Altura expresada en Centímetros." required></div>
+            <div><input class="formulario " type="number " id="edad " placeholder="Ingrese su Edad. " required></div>
+            <div><input class="formulario " type="number " id="peso " placeholder="Ingrese su Peso expresado en Kilogramos. " required></div>
+            <div><input class="formulario " type="number " id="altura " placeholder="Ingrese su Altura expresada en Centímetros. " required></div>
 
             <div>
-                <textarea class="formulario" id="descripcion" placeholder="Especifique si tiene alguna condición médica. "></textarea>
+                <textarea class="formulario " id="descripcion " placeholder="Especifique si tiene alguna condición médica. "></textarea>
             </div>
 
             <div>
-                <textarea class="formulario" id="descripcion" placeholder="Especifique si tiene alguna alergia. "></textarea>
+                <textarea class="formulario " id="descripcion " placeholder="Especifique si tiene alguna alergia. "></textarea>
             </div>
-            <div><label for="actividad"></label>
-                <select id="actividad" class="formulario" name="actividades">
-                    <option value="" style="display: none;">Seleccione la actividad de su preferencia.</option>
-                    <option value="funcional">Funcional</option>
-                    <option value="futbol_inf">Fútbol Infantil</option>
-                    <option value="futbol_adul">Fútbol Adultos</option>
-                    <option value="pilates">Pilates</option>  
-                    <option value="balonmano">Balonmano</option>
-                    <option value="voley">Voley</option> 
+            <div><label for="actividad "></label>
+                <select id="actividad " class="formulario " name="actividades ">
+                    <option value=" " style="display: none; ">Seleccione la actividad de su preferencia.</option>
+                    <option value="funcional ">Funcional</option>
+                    <option value="futbol_inf ">Fútbol Infantil</option>
+                    <option value="futbol_adul ">Fútbol Adultos</option>
+                    <option value="pilates ">Pilates</option>  
+                    <option value="balonmano ">Balonmano</option>
+                    <option value="voley ">Voley</option> 
                     
                 </select>
             </div>
@@ -88,20 +89,19 @@
                 <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
             </div>
 
-            <div class="formulario ">
+            <div class="formulario">
                 <p class="tipo-letra">Subir certificado médico de aptitud física para realizar actividades</p>
                 <p>Se admiten documentos en formato PDF, jpeg y png </p>
                 <label for="certificado" class="boton-archivo">Selecionar Archivo</label>
                 <input type="file" id="certificado" name="certificado" accept="image/jpeg, image/png, image/pdf">
             </div>
 
-            <!--Antes de enviar pedir verificacion de datos-->
-
-            <button type="submit">Enviar Formulario</button>
+            
+            <button type="submit ">Enviar Formulario</button>
 
 
         </form>
-        <script src="../assets/js/main1.js"></script>
+        <script src="../assets/js/main1.js "></script>
     </div>
 </body>
 

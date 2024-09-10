@@ -1,0 +1,99 @@
+#body2 {
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.boton-archivo {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-image: url("../imagenes/degradado.png");
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+    color: #5c4c94;
+    background-color: white;
+}
+
+.formulario {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid red;
+    font-family: 'calibri';
+    font-size: 13px;
+    background: window;
+    padding: 8px;
+    margin: 5px;
+}
+
+.p {
+    font-family: 'calibri';
+    font-size: 13px;
+    text-align: left;
+}
+
+.tipo-letra {
+    font-weight: bold;
+}
+
+#form-insc {
+    margin: 20px 90px 60px 90px;
+}
+
+#cont_formulario {
+    background-color: white;
+    opacity: 0.85;
+    margin: 1%;
+    padding: 5%;
+    box-shadow: 10px 10px 10px #dcdcdc;
+}
+
+modal {
+    display: none;
+    /* Ocultar el modal por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
